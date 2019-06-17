@@ -1,0 +1,2 @@
+Document is global object attached to window object which have access to all
+the elements of the HTML.
