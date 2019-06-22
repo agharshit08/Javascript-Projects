@@ -14,7 +14,7 @@ function loadEventListeners() {
     form.addEventListener('submit', addTask);
 
     // Remove Task
-    form.addEventListener('click', removeTask);
+    taskList.addEventListener('click', removeTask);
 
     // Clear Task Event
     clearBtn.addEventListener('click', clearTasks);
@@ -46,7 +46,7 @@ function addTask(e) {
     link.className = 'delete-item secondary-content';
 
     // Add icon HTML
-    link.innerHTML = '<i class="fa fa-remove"></li>';
+    link.innerHTML = '<i class="fa fa-remove"></i>';
 
     // Append to LI
     li.append(link);
